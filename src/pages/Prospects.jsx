@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import TableHOC from '../components/TableHOC';
+import ProspectTable from '../components/Tables/ProspectTable';
 import Navbar from '../components/Navbar';
 import FullScreenModal from '../components/FullScreenModal';
 import { FiUploadCloud } from 'react-icons/fi';
@@ -84,7 +84,7 @@ const Prospects = () => {
           </div>
         </div>
         <div className="p-4">
-          <TableHOC columns={columns} data={data} />
+          <ProspectTable columns={columns} data={data} />
         </div>
       </main>
 

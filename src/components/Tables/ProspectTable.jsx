@@ -2,7 +2,7 @@ import React from 'react';
 import { useTable, usePagination } from 'react-table';
 import { FaArrowLeftLong, FaArrowRight } from 'react-icons/fa6';
 
-const TableHOC = ({ columns, data }) => {
+const ProspectTable = ({ columns, data }) => {
   const {
     getTableProps,
     getTableBodyProps,
@@ -120,4 +120,4 @@ const TableHOC = ({ columns, data }) => {
   );
 };
 
-export default TableHOC;
+export default ProspectTable;

@@ -30,7 +30,8 @@ const SlideBar = ({ isOpen, toggleSidebar }) => {
               <li className="py-4 px-4 cursor-pointer">
                   <a href='/masters/prospects'>Prospects</a>
               </li>
-              <li className="py-4 px-4 cursor-pointer">Templates</li>
+              <li className="py-4 px-4 cursor-pointer">
+                <a href="/masters/templates">Templates</a></li>
             </ul>
           )}
           <li className="py-4 px-4 cursor-pointer">Users</li>
